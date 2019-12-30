@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="example.javatpoint.com.optionmenu.MainActivity">
+    <item  android:id="@+id/item1"
+        android:title="Show All"/>
+    <item  android:id="@+id/item2"
+        android:title="Show Completed"/>
+    <item  android:id="@+id/item3"
+        android:title="Show Pending"
+        app:showAsAction="withText"/>
+</menu>
